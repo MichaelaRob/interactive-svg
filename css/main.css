@@ -1,0 +1,24 @@
+#eyes {
+  transform: translateX(0);
+  animation: eyes 3s alternate infinite;
+}
+
+@keyframes eyes {
+
+  0% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(10px);
+  }
+
+}
+
+#ears {
+  transform: translateY(0);
+}
+
+.bear:hover #ears {
+  transform: translateY(-10px);
+}
