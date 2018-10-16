@@ -1,4 +1,5 @@
-#eyes {
+#left-eye ,
+#right-eye {
   transform: translateX(0);
   animation: eyes 3s alternate infinite;
 }
@@ -15,10 +16,16 @@
 
 }
 
-#ears {
+#left-ear ,
+#right-ear {
   transform: translateY(0);
+  transition: all .5s linear;
 }
 
-.bear:hover #ears {
+.bear:hover #left-ear {
+  transform: translateY(-10px);
+}
+
+.bear:hover #right-ear {
   transform: translateY(-10px);
 }
