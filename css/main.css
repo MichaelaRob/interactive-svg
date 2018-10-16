@@ -1,4 +1,4 @@
-#left-eye ,
+#left-eye,
 #right-eye {
   transform: translateX(0);
   animation: eyes 3s alternate infinite;
@@ -16,7 +16,7 @@
 
 }
 
-#left-ear ,
+#left-ear,
 #right-ear {
   transform: translateY(0);
   transition: all .5s linear;
